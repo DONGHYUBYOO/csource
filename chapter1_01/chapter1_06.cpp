@@ -175,7 +175,7 @@ using namespace std;
 	cout << endl;
 }*/
 
-void main() {
+/*void main() {
 	int sw = 0, sum = 0, asum = 0, bsum = 0, n = 0;
 	for (n = 0; n < 101; n++) {
 		if (sw == 0) {
@@ -187,8 +187,8 @@ void main() {
 			sw = 0;
 		}
 	}
-	cout << "for 홀수 합계 : " << bsum << endl;
-	cout << "for 짝수 합계 : " << asum << endl << endl;
+	cout << "for 홀수 합계 : " << bsum << "  결과가 왜 다르지?" << endl;
+	cout << "for 짝수 합계 : " << asum << "  결과가 왜 다르지?" << endl << endl;
 
 	sw = 0, asum = 0, bsum = 0, n = 0;
 	do {
@@ -231,7 +231,7 @@ void main() {
 			sw = 0;
 		}
 	}
-	cout << "for  합계 : " << sum << endl << endl;
+	cout << "for  합계 : " << sum << "  결과가 왜 다르지?"<< endl << endl;
 
 	sw = 0, sum = 0, asum = 0, bsum = 0, n = 0;
 	do {
@@ -245,7 +245,7 @@ void main() {
 			sw = 0;
 		}
 	} while (n < 100);
-	cout << "do while  합계 : " << sum << endl << endl;
+	cout << "do while  합계 : " << sum << "  결과가 왜 다르지?" << endl << endl;
 
 	sw = 0, sum = 0, asum = 0, bsum = 0, n = 0;
 	while (n < 100) {
@@ -260,4 +260,4 @@ void main() {
 		}
 	}
 	cout << "while  합계 : " << sum << endl << endl;
-}
+}*/
