@@ -1,5 +1,6 @@
 #include <iostream>
 #include <iomanip>	//C++ 조정문자
+#include "1.h"	//사용자가 생성한 헤더파일 적용
 
 using namespace std;
 /*void main() {
@@ -260,4 +261,76 @@ using namespace std;
 		}
 	}
 	cout << "while  합계 : " << sum << endl << endl;
+}*/
+
+//최대공배수, 공약수
+/*void main()
+{
+	int u,v,m,n,GCD,LCM;
+	cout << "두 숫자를 입력하세여";
+	cin >> m >> n;
+	m = u;
+	n = v;
+
+	while (m != n)
+	{
+		if (m > n) //큰 수 찾기
+			m = m - n;
+		else
+			n = n - m;
+	}
+	GCM = m; //최대공약수
+	LCM = (u*v) / GCM; //최대공배수
+	cout << "GCD" << setw(5) << GCD << endl;
+	cout << "LCM" << setw(5) << LCM << endl;
+}*/
+
+//최대공배수, 공약수
+/*void main() {
+	int u, v, GCD, LCM, s, l, na;
+	cout << "두 수를 입력하세요. : ";
+	cin >> u >> v;
+	if (u > v) {
+		s = v;
+		l = u;
+	}
+	else {
+		s = u;
+		l = v;
+	}
+	while (s != 0) {
+		na = l % s;
+		l = s;
+		s = na;
+
+		GCD = l;
+		LCM = (u*v) / GCD;
+		cout << "최대 공약수 : " << setw(5) << GCD << endl;
+		cout << "최대 공배수 : " << setw(5) << LCM << endl << endl;
+	}
+}*/
+
+//알파벳 출력
+/*void main() {
+	char mun, alp;
+	int i;
+	cout << "문자를 입력하세요. : ";
+	while (1) {
+		cin >> mun;
+		if (mun >= 'A' && mun <= 'Z') {
+			for (i = 1; i <= 26; i++) {
+				alp = mun++;
+				cout << setw(2) << alp;
+				if (mun > 'Z') {
+					mun = mun - 26;
+				}
+			}
+			cout << endl;
+			break;
+		}
+		else {
+			cout << "대문자를 입력하세요. : ";
+			continue;
+		}
+	}
 }*/
